@@ -1,0 +1,30 @@
+{
+  "name": "ecomm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:integration": "./scripts/run-integration.sh",
+    "start": "node dist/bin.js",
+    "dev": "ts-node src/bin.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@prisma/client": "^6.16.1",
+    "@types/express": "^5.0.3",
+    "express": "^5.1.0",
+    "prisma": "^6.16.1",
+    "vitest": "^3.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.0",
+    "@types/supertest": "^6.0.3",
+    "supertest": "^7.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
